@@ -17,7 +17,7 @@ This will build the app in release mode and create an executable in the `target/
 To use the app, run the following command:
 
 ```
-./target/release/weather-app LATITUDE LONGITUDE
+./target/release/weather-forecaster LATITUDE LONGITUDE
 ```
 
 Replace `LATITUDE` and `LONGITUDE` with the desired values.
@@ -28,16 +28,10 @@ Replace `LATITUDE` and `LONGITUDE` with the desired values.
 Here are some examples of how to use the app:
 
 ```
-./target/release/weather-app 37.7749 -122.4194
+./target/release/weather-forecaster 37.7749 -122.4194
 ```
 
 This will retrieve weather data for San Francisco, CA.
-
-```
-./target/release/weather-app --help
-```
-
-This will display the help message with usage information.
 
 ## Configuration
 
